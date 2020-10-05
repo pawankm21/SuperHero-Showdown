@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Superman</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="quiz.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <!-- CSS only -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src = "superman.js"></script>
+    
+</head>
+
+<body>
+    <h1>Only a real DC fan can get a 100% on this Superman Quiz!</h1>
+    
+    
+    <form id = "quiz" name = "quiz">
+    
+    
+    <p class = "questions">What was Superman's alien name?</p>
+    <input id = "textbox" type = "text" name = "question1">
+    
+    <p class = "questions">Which planet does superman come from?</p>
+    <input type = "radio" id = "mc" name = "question2" value = "thanagar"> Thanagar<br>
+    <input type = "radio" id = "mc" name = "question2" value = "krypton">Krypton<br>
+    
+    <p class = "questions">What was the name of Superman – or Clark Kent's – adoptive parents? </p>
+    
+    <input type = "radio" id = "mc" name = "question3" value = "ben and may"> Ben and May <br>
+    <input type = "radio" id = "mc" name = "question3" value = "jonathan and martha"> Jonathan and Martha<br>
+    
+    
+    <input id = "button" type = "button" value = "I'm finished!" onclick = "check();">
+    
+    
+    </form>
+    
+    <div id = "after_submit">
+    <p id = "number_correct"></p>
+    <p id = "message"></p>
+    <img id = "picture">
+    </div>
+    </html>
+    
+</body><!-- JS, Popper.js, and jQuery -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
